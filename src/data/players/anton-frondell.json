@@ -1,8 +1,8 @@
 {
   "_note": "Seed fixture — replace with live EP API data. Stats are illustrative.",
-  "id": "axel-frondell",
-  "slug": "axel-frondell",
-  "firstName": "Axel",
+  "id": "anton-frondell",
+  "slug": "anton-frondell",
+  "firstName": "Anton",
   "lastName": "Frondell",
   "birthDate": "2005-09-10",
   "birthplace": "Jönköping, Sweden",

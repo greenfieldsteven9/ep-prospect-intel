@@ -10,8 +10,8 @@ import type { Player } from '@/types';
 
 // --- Fixture imports (dev only) ---
 import viggoRaw from '@/data/players/viggo-bjorck.json';
-import ottoRaw from '@/data/players/otto-stenberg.json';
-import axelRaw from '@/data/players/axel-frondell.json';
+import ivarRaw from '@/data/players/ivar-stenberg.json';
+import antonRaw from '@/data/players/anton-frondell.json';
 
 type RawPlayerJson = Omit<typeof viggoRaw, '_note'>;
 
@@ -24,8 +24,8 @@ function normalizePlayer(raw: RawPlayerJson & { _note?: string }): Player {
 
 const FIXTURE_MAP: Record<string, RawPlayerJson & { _note?: string }> = {
   'viggo-bjorck': viggoRaw,
-  'otto-stenberg': ottoRaw,
-  'axel-frondell': axelRaw,
+  'ivar-stenberg': ivarRaw,
+  'anton-frondell': antonRaw,
 };
 
 export async function fetchPlayerBySlug(slug: string): Promise<Player | null> {

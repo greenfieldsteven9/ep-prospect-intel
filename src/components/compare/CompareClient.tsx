@@ -10,7 +10,7 @@ interface Props {
   allPlayers: PlayerWithAdjusted[];
 }
 
-const DEFAULT_SLUGS = ['viggo-bjorck', 'otto-stenberg', 'axel-frondell'];
+const DEFAULT_SLUGS = ['viggo-bjorck', 'ivar-stenberg', 'anton-frondell'];
 
 export default function CompareClient({ allPlayers }: Props) {
   const [selectedSlugs, setSelectedSlugs] = useState<string[]>(DEFAULT_SLUGS);

@@ -1,8 +1,8 @@
 {
   "_note": "Seed fixture — replace with live EP API data. Stats are illustrative.",
-  "id": "otto-stenberg",
-  "slug": "otto-stenberg",
-  "firstName": "Otto",
+  "id": "ivar-stenberg",
+  "slug": "ivar-stenberg",
+  "firstName": "Ivar",
   "lastName": "Stenberg",
   "birthDate": "2005-06-20",
   "birthplace": "Gothenburg, Sweden",
