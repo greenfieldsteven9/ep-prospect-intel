@@ -1,0 +1,202 @@
+{
+  "_note": "Seed fixture — replace with live EP API data. Stats are illustrative.",
+  "id": "otto-stenberg",
+  "slug": "otto-stenberg",
+  "firstName": "Otto",
+  "lastName": "Stenberg",
+  "birthDate": "2005-06-20",
+  "birthplace": "Gothenburg, Sweden",
+  "nationality": "Sweden",
+  "position": "C",
+  "shoots": "L",
+  "height": 185,
+  "weight": 86,
+  "draftInfo": {
+    "year": 2023,
+    "round": 1,
+    "overall": 14,
+    "team": "St. Louis Blues",
+    "teamId": "stl"
+  },
+  "currentTeam": {
+    "id": "frolunda",
+    "name": "Frölunda HC",
+    "shortName": "FHC",
+    "country": "Sweden"
+  },
+  "milestones": [
+    {
+      "date": "2021-09-10",
+      "label": "J18 Nationell debut",
+      "type": "debut"
+    },
+    {
+      "date": "2022-09-05",
+      "label": "J20 Nationell — named team captain",
+      "type": "award"
+    },
+    {
+      "date": "2023-01-18",
+      "label": "SHL debut vs. Luleå",
+      "type": "debut"
+    },
+    {
+      "date": "2023-02-04",
+      "label": "First SHL goal and 2-point game",
+      "type": "goal"
+    },
+    {
+      "date": "2023-06-29",
+      "label": "Selected 14th overall by St. Louis Blues",
+      "type": "draft"
+    },
+    {
+      "date": "2023-09-15",
+      "label": "Signed entry-level contract with St. Louis",
+      "type": "contract"
+    },
+    {
+      "date": "2024-03-28",
+      "label": "First career SHL hat trick",
+      "type": "goal"
+    },
+    {
+      "date": "2025-02-11",
+      "label": "Surpassed 100 SHL career points",
+      "type": "point"
+    }
+  ],
+  "seasons": [
+    {
+      "seasonId": "2021-22",
+      "team": {
+        "id": "frolunda-j18",
+        "name": "Frölunda HC J18",
+        "shortName": "FHC J18",
+        "country": "Sweden"
+      },
+      "league": {
+        "id": "j18-nationell",
+        "name": "J18 Nationell",
+        "shortName": "J18 Nat.",
+        "country": "Sweden",
+        "tier": 4,
+        "difficultyCoefficient": 0.18
+      },
+      "gamesPlayed": 26,
+      "goals": 10,
+      "assists": 18,
+      "points": 28,
+      "plusMinus": 12,
+      "penaltyMinutes": 14
+    },
+    {
+      "seasonId": "2022-23-j20",
+      "team": {
+        "id": "frolunda-j20",
+        "name": "Frölunda HC J20",
+        "shortName": "FHC J20",
+        "country": "Sweden"
+      },
+      "league": {
+        "id": "j20-nationell",
+        "name": "J20 Nationell",
+        "shortName": "J20 Nat.",
+        "country": "Sweden",
+        "tier": 4,
+        "difficultyCoefficient": 0.25
+      },
+      "gamesPlayed": 34,
+      "goals": 18,
+      "assists": 27,
+      "points": 45,
+      "plusMinus": 20,
+      "penaltyMinutes": 16
+    },
+    {
+      "seasonId": "2022-23-shl",
+      "team": {
+        "id": "frolunda",
+        "name": "Frölunda HC",
+        "shortName": "FHC",
+        "country": "Sweden"
+      },
+      "league": {
+        "id": "shl",
+        "name": "Swedish Hockey League",
+        "shortName": "SHL",
+        "country": "Sweden",
+        "tier": 1,
+        "difficultyCoefficient": 0.82
+      },
+      "gamesPlayed": 14,
+      "goals": 2,
+      "assists": 5,
+      "points": 7,
+      "plusMinus": -1,
+      "penaltyMinutes": 6
+    },
+    {
+      "seasonId": "2023-24",
+      "team": {
+        "id": "frolunda",
+        "name": "Frölunda HC",
+        "shortName": "FHC",
+        "country": "Sweden"
+      },
+      "league": {
+        "id": "shl",
+        "name": "Swedish Hockey League",
+        "shortName": "SHL",
+        "country": "Sweden",
+        "tier": 1,
+        "difficultyCoefficient": 0.82
+      },
+      "gamesPlayed": 46,
+      "goals": 13,
+      "assists": 24,
+      "points": 37,
+      "plusMinus": 8,
+      "penaltyMinutes": 22,
+      "playoffs": {
+        "gamesPlayed": 9,
+        "goals": 3,
+        "assists": 5,
+        "points": 8,
+        "plusMinus": 4,
+        "penaltyMinutes": 6
+      }
+    },
+    {
+      "seasonId": "2024-25",
+      "team": {
+        "id": "frolunda",
+        "name": "Frölunda HC",
+        "shortName": "FHC",
+        "country": "Sweden"
+      },
+      "league": {
+        "id": "shl",
+        "name": "Swedish Hockey League",
+        "shortName": "SHL",
+        "country": "Sweden",
+        "tier": 1,
+        "difficultyCoefficient": 0.82
+      },
+      "gamesPlayed": 52,
+      "goals": 19,
+      "assists": 31,
+      "points": 50,
+      "plusMinus": 15,
+      "penaltyMinutes": 28,
+      "playoffs": {
+        "gamesPlayed": 11,
+        "goals": 5,
+        "assists": 7,
+        "points": 12,
+        "plusMinus": 6,
+        "penaltyMinutes": 8
+      }
+    }
+  ]
+}

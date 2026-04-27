@@ -1,0 +1,122 @@
+[
+  {
+    "id": "nhl",
+    "name": "National Hockey League",
+    "shortName": "NHL",
+    "country": "USA/Canada",
+    "tier": 1,
+    "difficultyCoefficient": 1.0
+  },
+  {
+    "id": "shl",
+    "name": "Swedish Hockey League",
+    "shortName": "SHL",
+    "country": "Sweden",
+    "tier": 1,
+    "difficultyCoefficient": 0.82
+  },
+  {
+    "id": "khl",
+    "name": "Kontinental Hockey League",
+    "shortName": "KHL",
+    "country": "Russia",
+    "tier": 1,
+    "difficultyCoefficient": 0.80
+  },
+  {
+    "id": "liiga",
+    "name": "Liiga",
+    "shortName": "Liiga",
+    "country": "Finland",
+    "tier": 1,
+    "difficultyCoefficient": 0.76
+  },
+  {
+    "id": "nla",
+    "name": "National League",
+    "shortName": "NL",
+    "country": "Switzerland",
+    "tier": 1,
+    "difficultyCoefficient": 0.75
+  },
+  {
+    "id": "del",
+    "name": "Deutsche Eishockey Liga",
+    "shortName": "DEL",
+    "country": "Germany",
+    "tier": 1,
+    "difficultyCoefficient": 0.71
+  },
+  {
+    "id": "ahl",
+    "name": "American Hockey League",
+    "shortName": "AHL",
+    "country": "USA/Canada",
+    "tier": 2,
+    "difficultyCoefficient": 0.72
+  },
+  {
+    "id": "allsvenskan",
+    "name": "HockeyAllsvenskan",
+    "shortName": "Allsvenskan",
+    "country": "Sweden",
+    "tier": 2,
+    "difficultyCoefficient": 0.56
+  },
+  {
+    "id": "whl",
+    "name": "Western Hockey League",
+    "shortName": "WHL",
+    "country": "Canada",
+    "tier": 3,
+    "difficultyCoefficient": 0.58
+  },
+  {
+    "id": "ohl",
+    "name": "Ontario Hockey League",
+    "shortName": "OHL",
+    "country": "Canada",
+    "tier": 3,
+    "difficultyCoefficient": 0.56
+  },
+  {
+    "id": "qmjhl",
+    "name": "Quebec Major Junior Hockey League",
+    "shortName": "QMJHL",
+    "country": "Canada",
+    "tier": 3,
+    "difficultyCoefficient": 0.54
+  },
+  {
+    "id": "ncaa",
+    "name": "NCAA (D-I)",
+    "shortName": "NCAA",
+    "country": "USA",
+    "tier": 3,
+    "difficultyCoefficient": 0.58
+  },
+  {
+    "id": "ushl",
+    "name": "United States Hockey League",
+    "shortName": "USHL",
+    "country": "USA",
+    "tier": 3,
+    "difficultyCoefficient": 0.50
+  },
+  {
+    "id": "j20-nationell",
+    "name": "J20 Nationell",
+    "shortName": "J20 Nat.",
+    "country": "Sweden",
+    "tier": 4,
+    "difficultyCoefficient": 0.25
+  },
+  {
+    "id": "j18-nationell",
+    "name": "J18 Nationell",
+    "shortName": "J18 Nat.",
+    "country": "Sweden",
+    "tier": 4,
+    "difficultyCoefficient": 0.18
+  }
+]

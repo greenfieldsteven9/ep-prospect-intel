@@ -1,0 +1,189 @@
+{
+  "_note": "Seed fixture — replace with live EP API data. Stats are illustrative.",
+  "id": "viggo-bjorck",
+  "slug": "viggo-bjorck",
+  "firstName": "Viggo",
+  "lastName": "Björck",
+  "birthDate": "2006-01-17",
+  "birthplace": "Stockholm, Sweden",
+  "nationality": "Sweden",
+  "position": "RW",
+  "shoots": "R",
+  "height": 183,
+  "weight": 82,
+  "draftInfo": {
+    "year": 2024,
+    "round": 1,
+    "overall": 19,
+    "team": "Nashville Predators",
+    "teamId": "nsh"
+  },
+  "currentTeam": {
+    "id": "djurgarden",
+    "name": "Djurgårdens IF",
+    "shortName": "DIF",
+    "country": "Sweden"
+  },
+  "milestones": [
+    {
+      "date": "2022-09-15",
+      "label": "J20 Nationell debut at age 16",
+      "type": "debut"
+    },
+    {
+      "date": "2023-10-07",
+      "label": "First SHL game vs. Frölunda",
+      "type": "debut"
+    },
+    {
+      "date": "2023-11-22",
+      "label": "First SHL goal",
+      "type": "goal"
+    },
+    {
+      "date": "2024-02-14",
+      "label": "First SHL multipoint game (1G 2A)",
+      "type": "point"
+    },
+    {
+      "date": "2024-06-28",
+      "label": "Selected 19th overall by Nashville Predators",
+      "type": "draft"
+    },
+    {
+      "date": "2024-09-01",
+      "label": "Signed entry-level contract with Nashville",
+      "type": "contract"
+    },
+    {
+      "date": "2025-01-10",
+      "label": "Career-high 4-point game in SHL",
+      "type": "point"
+    }
+  ],
+  "seasons": [
+    {
+      "seasonId": "2021-22",
+      "team": {
+        "id": "djurgarden-j18",
+        "name": "Djurgårdens IF J18",
+        "shortName": "DIF J18",
+        "country": "Sweden"
+      },
+      "league": {
+        "id": "j18-nationell",
+        "name": "J18 Nationell",
+        "shortName": "J18 Nat.",
+        "country": "Sweden",
+        "tier": 4,
+        "difficultyCoefficient": 0.18
+      },
+      "gamesPlayed": 22,
+      "goals": 7,
+      "assists": 11,
+      "points": 18,
+      "plusMinus": 9,
+      "penaltyMinutes": 8
+    },
+    {
+      "seasonId": "2022-23",
+      "team": {
+        "id": "djurgarden-j20",
+        "name": "Djurgårdens IF J20",
+        "shortName": "DIF J20",
+        "country": "Sweden"
+      },
+      "league": {
+        "id": "j20-nationell",
+        "name": "J20 Nationell",
+        "shortName": "J20 Nat.",
+        "country": "Sweden",
+        "tier": 4,
+        "difficultyCoefficient": 0.25
+      },
+      "gamesPlayed": 38,
+      "goals": 12,
+      "assists": 21,
+      "points": 33,
+      "plusMinus": 14,
+      "penaltyMinutes": 12
+    },
+    {
+      "seasonId": "2023-24",
+      "team": {
+        "id": "djurgarden-j20",
+        "name": "Djurgårdens IF J20",
+        "shortName": "DIF J20",
+        "country": "Sweden"
+      },
+      "league": {
+        "id": "j20-nationell",
+        "name": "J20 Nationell",
+        "shortName": "J20 Nat.",
+        "country": "Sweden",
+        "tier": 4,
+        "difficultyCoefficient": 0.25
+      },
+      "gamesPlayed": 16,
+      "goals": 8,
+      "assists": 13,
+      "points": 21,
+      "plusMinus": 8,
+      "penaltyMinutes": 6
+    },
+    {
+      "seasonId": "2023-24-shl",
+      "team": {
+        "id": "djurgarden",
+        "name": "Djurgårdens IF",
+        "shortName": "DIF",
+        "country": "Sweden"
+      },
+      "league": {
+        "id": "shl",
+        "name": "Swedish Hockey League",
+        "shortName": "SHL",
+        "country": "Sweden",
+        "tier": 1,
+        "difficultyCoefficient": 0.82
+      },
+      "gamesPlayed": 24,
+      "goals": 4,
+      "assists": 9,
+      "points": 13,
+      "plusMinus": 2,
+      "penaltyMinutes": 10
+    },
+    {
+      "seasonId": "2024-25",
+      "team": {
+        "id": "djurgarden",
+        "name": "Djurgårdens IF",
+        "shortName": "DIF",
+        "country": "Sweden"
+      },
+      "league": {
+        "id": "shl",
+        "name": "Swedish Hockey League",
+        "shortName": "SHL",
+        "country": "Sweden",
+        "tier": 1,
+        "difficultyCoefficient": 0.82
+      },
+      "gamesPlayed": 52,
+      "goals": 14,
+      "assists": 23,
+      "points": 37,
+      "plusMinus": 11,
+      "penaltyMinutes": 18,
+      "playoffs": {
+        "gamesPlayed": 7,
+        "goals": 2,
+        "assists": 4,
+        "points": 6,
+        "plusMinus": 3,
+        "penaltyMinutes": 4
+      }
+    }
+  ]
+}
