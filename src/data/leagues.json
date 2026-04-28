@@ -104,9 +104,49 @@
     "difficultyCoefficient": 0.50
   },
   {
+    "id": "wjc-20",
+    "name": "World Junior Championship",
+    "shortName": "WJC-20",
+    "country": "International",
+    "tier": 3,
+    "difficultyCoefficient": 0.45
+  },
+  {
+    "id": "wjc-18",
+    "name": "World U18 Championship",
+    "shortName": "WJC-18",
+    "country": "International",
+    "tier": 3,
+    "difficultyCoefficient": 0.35
+  },
+  {
+    "id": "whc-17",
+    "name": "World Hockey Challenge U17",
+    "shortName": "WHC-17",
+    "country": "International",
+    "tier": 4,
+    "difficultyCoefficient": 0.28
+  },
+  {
+    "id": "intl-jr",
+    "name": "International Junior",
+    "shortName": "Intl-Jr",
+    "country": "International",
+    "tier": 4,
+    "difficultyCoefficient": 0.30
+  },
+  {
     "id": "j20-nationell",
     "name": "J20 Nationell",
     "shortName": "J20 Nat.",
+    "country": "Sweden",
+    "tier": 4,
+    "difficultyCoefficient": 0.25
+  },
+  {
+    "id": "u20-nationell",
+    "name": "U20 Nationell",
+    "shortName": "U20 Nat.",
     "country": "Sweden",
     "tier": 4,
     "difficultyCoefficient": 0.25
@@ -118,5 +158,29 @@
     "country": "Sweden",
     "tier": 4,
     "difficultyCoefficient": 0.18
+  },
+  {
+    "id": "j18-region",
+    "name": "J18 Region",
+    "shortName": "J18 Region",
+    "country": "Sweden",
+    "tier": 5,
+    "difficultyCoefficient": 0.12
+  },
+  {
+    "id": "u16-sm",
+    "name": "U16 SM",
+    "shortName": "U16 SM",
+    "country": "Sweden",
+    "tier": 5,
+    "difficultyCoefficient": 0.08
+  },
+  {
+    "id": "u16-div1",
+    "name": "U16 Div.1",
+    "shortName": "U16 Div.1",
+    "country": "Sweden",
+    "tier": 5,
+    "difficultyCoefficient": 0.06
   }
 ]
