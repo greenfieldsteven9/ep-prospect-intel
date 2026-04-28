@@ -26,7 +26,6 @@ const LEAGUE_COLORS: Record<string, string> = {
   ahl: '#3fb950',
   'j20-nationell': '#8b949e',
   'j18-nationell': '#484f58',
-  allsvenskan: '#a78bfa',
 };
 
 function leagueColor(leagueId: string): string {
