@@ -8,6 +8,18 @@ function pct(value: number, dp = 2): string {
   return value.toFixed(dp);
 }
 
+function leagueBadgeStyle(leagueId: string, tier: number): React.CSSProperties {
+  if (leagueId === 'nhl') return { background: 'rgba(240,180,41,0.15)', color: '#f0b429' };
+  if (tier === 1) return { background: 'rgba(88,166,255,0.1)', color: '#58a6ff' };
+  if (tier === 2) return { background: 'rgba(167,139,250,0.1)', color: '#a78bfa' };
+  return { background: 'rgba(139,148,158,0.08)', color: '#8b949e' };
+}
+
+function formatSeasonId(seasonId: string): string {
+  // "2025-26-nhl" → "25-26"  (strip trailing league tag)
+  return seasonId.replace(/^20/, '').replace(/-[a-z0-9]+$/, '');
+}
+
 export default function CareerStatsTable({ seasons }: Props) {
   return (
     <div className="overflow-x-auto">
@@ -27,34 +39,44 @@ export default function CareerStatsTable({ seasons }: Props) {
           </tr>
         </thead>
         <tbody className="divide-y divide-border/50">
-          {seasons.map((s) => (
-            <tr key={s.seasonId} className="hover:bg-surface-2/50 transition-colors">
-              <td className="py-2.5 pr-4 font-medium text-text-primary whitespace-nowrap">
-                {s.seasonId.replace(/-shl$|-j20$|-j18$/, '')}
-              </td>
-              <td className="py-2.5 pr-4 text-text-secondary whitespace-nowrap">{s.team.shortName}</td>
-              <td className="py-2.5 pr-4 whitespace-nowrap">
-                <span
-                  className="text-xs px-2 py-0.5 rounded-full"
-                  style={{
-                    background: s.league.tier === 1 ? 'rgba(88,166,255,0.1)' : 'rgba(139,148,158,0.1)',
-                    color: s.league.tier === 1 ? '#58a6ff' : '#8b949e',
-                  }}
-                >
-                  {s.league.shortName}
-                </span>
-              </td>
-              <td className="py-2.5 pr-3 text-right text-text-secondary">{s.gamesPlayed}</td>
-              <td className="py-2.5 pr-3 text-right text-text-primary">{s.goals}</td>
-              <td className="py-2.5 pr-3 text-right text-text-primary">{s.assists}</td>
-              <td className="py-2.5 pr-3 text-right font-semibold text-text-primary">{s.points}</td>
-              <td className={`py-2.5 pr-3 text-right ${s.plusMinus >= 0 ? 'text-accent-green' : 'text-accent-red'}`}>
-                {s.plusMinus >= 0 ? '+' : ''}{s.plusMinus}
-              </td>
-              <td className="py-2.5 pr-3 text-right text-text-secondary">{pct(s.rawPPG)}</td>
-              <td className="py-2.5 text-right font-semibold text-accent-gold">{pct(s.adjustedPPG)}</td>
-            </tr>
-          ))}
+          {seasons.map((s) => {
+            const isNHL = s.league.id === 'nhl';
+            return (
+              <tr
+                key={s.seasonId}
+                className={`hover:bg-surface-2/50 transition-colors ${isNHL ? 'bg-accent-gold/5' : ''}`}
+              >
+                <td className="py-2.5 pr-4 font-medium text-text-primary whitespace-nowrap">
+                  {formatSeasonId(s.seasonId)}
+                  {isNHL && (
+                    <span className="ml-1.5 text-[10px] font-bold text-accent-gold bg-accent-gold/10 px-1.5 py-0.5 rounded-full uppercase tracking-wide">
+                      NHL
+                    </span>
+                  )}
+                </td>
+                <td className="py-2.5 pr-4 text-text-secondary whitespace-nowrap">{s.team.shortName}</td>
+                <td className="py-2.5 pr-4 whitespace-nowrap">
+                  <span
+                    className="text-xs px-2 py-0.5 rounded-full font-medium"
+                    style={leagueBadgeStyle(s.league.id, s.league.tier)}
+                  >
+                    {s.league.shortName}
+                  </span>
+                </td>
+                <td className="py-2.5 pr-3 text-right text-text-secondary">{s.gamesPlayed}</td>
+                <td className="py-2.5 pr-3 text-right text-text-primary">{s.goals}</td>
+                <td className="py-2.5 pr-3 text-right text-text-primary">{s.assists}</td>
+                <td className={`py-2.5 pr-3 text-right font-semibold ${isNHL ? 'text-accent-gold' : 'text-text-primary'}`}>
+                  {s.points}
+                </td>
+                <td className={`py-2.5 pr-3 text-right ${s.plusMinus >= 0 ? 'text-accent-green' : 'text-accent-red'}`}>
+                  {s.plusMinus >= 0 ? '+' : ''}{s.plusMinus}
+                </td>
+                <td className="py-2.5 pr-3 text-right text-text-secondary">{pct(s.rawPPG)}</td>
+                <td className="py-2.5 text-right font-semibold text-accent-gold">{pct(s.adjustedPPG)}</td>
+              </tr>
+            );
+          })}
         </tbody>
       </table>
     </div>

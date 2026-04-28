@@ -20,8 +20,9 @@ interface Props {
 }
 
 const LEAGUE_COLORS: Record<string, string> = {
-  shl: '#58a6ff',
   nhl: '#f0b429',
+  shl: '#58a6ff',
+  allsvenskan: '#a78bfa',
   ahl: '#3fb950',
   'j20-nationell': '#8b949e',
   'j18-nationell': '#484f58',
