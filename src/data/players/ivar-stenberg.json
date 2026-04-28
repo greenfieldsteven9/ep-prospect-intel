@@ -1,23 +1,15 @@
 {
-  "_note": "Seed fixture — replace with live EP API data. Stats are illustrative.",
   "id": "ivar-stenberg",
   "slug": "ivar-stenberg",
   "firstName": "Ivar",
   "lastName": "Stenberg",
-  "birthDate": "2005-06-20",
-  "birthplace": "Gothenburg, Sweden",
+  "birthDate": "2005-01-01",
+  "birthplace": "Stenungsund, Sweden",
   "nationality": "Sweden",
-  "position": "C",
+  "position": "LW",
   "shoots": "L",
   "height": 185,
-  "weight": 86,
-  "draftInfo": {
-    "year": 2023,
-    "round": 1,
-    "overall": 14,
-    "team": "St. Louis Blues",
-    "teamId": "stl"
-  },
+  "weight": 84,
   "currentTeam": {
     "id": "frolunda",
     "name": "Frölunda HC",
@@ -26,49 +18,295 @@
   },
   "milestones": [
     {
-      "date": "2021-09-10",
-      "label": "J18 Nationell debut",
+      "date": "2022-09-01",
+      "label": "J18 Nationell debut with Frölunda J18",
       "type": "debut"
     },
     {
-      "date": "2022-09-05",
-      "label": "J20 Nationell — named team captain",
-      "type": "award"
+      "date": "2023-09-01",
+      "label": "Dominant J18 Nationell season — 30 points in 13 games",
+      "type": "point"
     },
     {
-      "date": "2023-01-18",
-      "label": "SHL debut vs. Luleå",
+      "date": "2023-12-26",
+      "label": "WHC-17 — 10 points in 7 games, leads tournament scorers",
+      "type": "point"
+    },
+    {
+      "date": "2024-09-01",
+      "label": "J20 Nationell breakout — 53 points in 27 games",
+      "type": "point"
+    },
+    {
+      "date": "2024-10-01",
+      "label": "SHL debut with Frölunda HC",
       "type": "debut"
     },
     {
-      "date": "2023-02-04",
-      "label": "First SHL goal and 2-point game",
-      "type": "goal"
+      "date": "2025-04-01",
+      "label": "WJC-18 — 13 points in 7 games for Sweden U18",
+      "type": "point"
     },
     {
-      "date": "2023-06-29",
-      "label": "Selected 14th overall by St. Louis Blues",
-      "type": "draft"
+      "date": "2025-09-01",
+      "label": "First full SHL season — 33 points in 43 games",
+      "type": "point"
     },
     {
-      "date": "2023-09-15",
-      "label": "Signed entry-level contract with St. Louis",
-      "type": "contract"
-    },
-    {
-      "date": "2024-03-28",
-      "label": "First career SHL hat trick",
-      "type": "goal"
-    },
-    {
-      "date": "2025-02-11",
-      "label": "Surpassed 100 SHL career points",
+      "date": "2025-12-26",
+      "label": "World Juniors (WJC-20) — 10 points in 7 games",
       "type": "point"
     }
   ],
   "seasons": [
     {
-      "seasonId": "2021-22",
+      "seasonId": "2019-20-u16-div1",
+      "team": {
+        "id": "stenungsund-u16",
+        "name": "Stenungsund HF U16",
+        "shortName": "SHF U16",
+        "country": "Sweden"
+      },
+      "league": {
+        "id": "u16-div1",
+        "name": "U16 Div.1",
+        "shortName": "U16 Div.1",
+        "country": "Sweden",
+        "tier": 5,
+        "difficultyCoefficient": 0.06
+      },
+      "gamesPlayed": 6,
+      "goals": 1,
+      "assists": 1,
+      "points": 2,
+      "plusMinus": 0,
+      "penaltyMinutes": 0,
+      "playoffs": {
+        "gamesPlayed": 1,
+        "goals": 0,
+        "assists": 0,
+        "points": 0,
+        "plusMinus": 2,
+        "penaltyMinutes": 0
+      }
+    },
+    {
+      "seasonId": "2019-20-u16-div2",
+      "team": {
+        "id": "stenungsund-u16-2",
+        "name": "Stenungsund HF U16 2",
+        "shortName": "SHF U16-2",
+        "country": "Sweden"
+      },
+      "league": {
+        "id": "u16-div2",
+        "name": "U16 Div.2",
+        "shortName": "U16 Div.2",
+        "country": "Sweden",
+        "tier": 5,
+        "difficultyCoefficient": 0.03
+      },
+      "gamesPlayed": 4,
+      "goals": 3,
+      "assists": 5,
+      "points": 8,
+      "plusMinus": 0,
+      "penaltyMinutes": 0
+    },
+    {
+      "seasonId": "2020-21-u16-div1",
+      "team": {
+        "id": "stenungsund-u16",
+        "name": "Stenungsund HF U16",
+        "shortName": "SHF U16",
+        "country": "Sweden"
+      },
+      "league": {
+        "id": "u16-div1",
+        "name": "U16 Div.1",
+        "shortName": "U16 Div.1",
+        "country": "Sweden",
+        "tier": 5,
+        "difficultyCoefficient": 0.06
+      },
+      "gamesPlayed": 3,
+      "goals": 3,
+      "assists": 7,
+      "points": 10,
+      "plusMinus": 2,
+      "penaltyMinutes": 0
+    },
+    {
+      "seasonId": "2020-21-u16-div2",
+      "team": {
+        "id": "stenungsund-u16-2",
+        "name": "Stenungsund HF U16 2",
+        "shortName": "SHF U16-2",
+        "country": "Sweden"
+      },
+      "league": {
+        "id": "u16-div2",
+        "name": "U16 Div.2",
+        "shortName": "U16 Div.2",
+        "country": "Sweden",
+        "tier": 5,
+        "difficultyCoefficient": 0.03
+      },
+      "gamesPlayed": 1,
+      "goals": 2,
+      "assists": 3,
+      "points": 5,
+      "plusMinus": 0,
+      "penaltyMinutes": 0
+    },
+    {
+      "seasonId": "2020-21-j18-div2",
+      "team": {
+        "id": "stenungsund-j18",
+        "name": "Stenungsund HF J18",
+        "shortName": "SHF J18",
+        "country": "Sweden"
+      },
+      "league": {
+        "id": "j18-div2",
+        "name": "J18 Div.2",
+        "shortName": "J18 Div.2",
+        "country": "Sweden",
+        "tier": 5,
+        "difficultyCoefficient": 0.08
+      },
+      "gamesPlayed": 3,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "plusMinus": 0,
+      "penaltyMinutes": 0
+    },
+    {
+      "seasonId": "2021-22-u16-region",
+      "team": {
+        "id": "frolunda-u16",
+        "name": "Frölunda HC U16",
+        "shortName": "FHC U16",
+        "country": "Sweden"
+      },
+      "league": {
+        "id": "u16-region",
+        "name": "U16 Region",
+        "shortName": "U16 Region",
+        "country": "Sweden",
+        "tier": 5,
+        "difficultyCoefficient": 0.05
+      },
+      "gamesPlayed": 21,
+      "goals": 11,
+      "assists": 21,
+      "points": 32,
+      "plusMinus": 6,
+      "penaltyMinutes": 0
+    },
+    {
+      "seasonId": "2021-22-u16-sm",
+      "team": {
+        "id": "frolunda-u16",
+        "name": "Frölunda HC U16",
+        "shortName": "FHC U16",
+        "country": "Sweden"
+      },
+      "league": {
+        "id": "u16-sm",
+        "name": "U16 SM",
+        "shortName": "U16 SM",
+        "country": "Sweden",
+        "tier": 5,
+        "difficultyCoefficient": 0.08
+      },
+      "gamesPlayed": 6,
+      "goals": 5,
+      "assists": 1,
+      "points": 6,
+      "plusMinus": 0,
+      "penaltyMinutes": 0
+    },
+    {
+      "seasonId": "2022-23-u16-region",
+      "team": {
+        "id": "frolunda-u16",
+        "name": "Frölunda HC U16",
+        "shortName": "FHC U16",
+        "country": "Sweden"
+      },
+      "league": {
+        "id": "u16-region",
+        "name": "U16 Region",
+        "shortName": "U16 Region",
+        "country": "Sweden",
+        "tier": 5,
+        "difficultyCoefficient": 0.05
+      },
+      "gamesPlayed": 12,
+      "goals": 9,
+      "assists": 23,
+      "points": 32,
+      "plusMinus": 4,
+      "penaltyMinutes": 0,
+      "playoffs": {
+        "gamesPlayed": 2,
+        "goals": 1,
+        "assists": 4,
+        "points": 5,
+        "plusMinus": 2,
+        "penaltyMinutes": 0
+      }
+    },
+    {
+      "seasonId": "2022-23-u16-sm",
+      "team": {
+        "id": "frolunda-u16",
+        "name": "Frölunda HC U16",
+        "shortName": "FHC U16",
+        "country": "Sweden"
+      },
+      "league": {
+        "id": "u16-sm",
+        "name": "U16 SM",
+        "shortName": "U16 SM",
+        "country": "Sweden",
+        "tier": 5,
+        "difficultyCoefficient": 0.08
+      },
+      "gamesPlayed": 3,
+      "goals": 1,
+      "assists": 2,
+      "points": 3,
+      "plusMinus": 2,
+      "penaltyMinutes": 0
+    },
+    {
+      "seasonId": "2022-23-j18-region",
+      "team": {
+        "id": "frolunda-j18",
+        "name": "Frölunda HC J18",
+        "shortName": "FHC J18",
+        "country": "Sweden"
+      },
+      "league": {
+        "id": "j18-region",
+        "name": "J18 Region",
+        "shortName": "J18 Region",
+        "country": "Sweden",
+        "tier": 5,
+        "difficultyCoefficient": 0.12
+      },
+      "gamesPlayed": 12,
+      "goals": 6,
+      "assists": 11,
+      "points": 17,
+      "plusMinus": 2,
+      "penaltyMinutes": 12
+    },
+    {
+      "seasonId": "2022-23-j18-nat",
       "team": {
         "id": "frolunda-j18",
         "name": "Frölunda HC J18",
@@ -83,15 +321,77 @@
         "tier": 4,
         "difficultyCoefficient": 0.18
       },
-      "gamesPlayed": 26,
-      "goals": 10,
-      "assists": 18,
-      "points": 28,
-      "plusMinus": 12,
-      "penaltyMinutes": 14
+      "gamesPlayed": 14,
+      "goals": 3,
+      "assists": 5,
+      "points": 8,
+      "plusMinus": 4,
+      "penaltyMinutes": 3,
+      "playoffs": {
+        "gamesPlayed": 5,
+        "goals": 0,
+        "assists": 0,
+        "points": 0,
+        "plusMinus": 2,
+        "penaltyMinutes": 0
+      }
     },
     {
-      "seasonId": "2022-23-j20",
+      "seasonId": "2023-24-j18-region",
+      "team": {
+        "id": "frolunda-j18",
+        "name": "Frölunda HC J18",
+        "shortName": "FHC J18",
+        "country": "Sweden"
+      },
+      "league": {
+        "id": "j18-region",
+        "name": "J18 Region",
+        "shortName": "J18 Region",
+        "country": "Sweden",
+        "tier": 5,
+        "difficultyCoefficient": 0.12
+      },
+      "gamesPlayed": 18,
+      "goals": 5,
+      "assists": 27,
+      "points": 32,
+      "plusMinus": 6,
+      "penaltyMinutes": 16
+    },
+    {
+      "seasonId": "2023-24-j18-nat",
+      "team": {
+        "id": "frolunda-j18",
+        "name": "Frölunda HC J18",
+        "shortName": "FHC J18",
+        "country": "Sweden"
+      },
+      "league": {
+        "id": "j18-nationell",
+        "name": "J18 Nationell",
+        "shortName": "J18 Nat.",
+        "country": "Sweden",
+        "tier": 4,
+        "difficultyCoefficient": 0.18
+      },
+      "gamesPlayed": 13,
+      "goals": 18,
+      "assists": 12,
+      "points": 30,
+      "plusMinus": 10,
+      "penaltyMinutes": 17,
+      "playoffs": {
+        "gamesPlayed": 5,
+        "goals": 5,
+        "assists": 8,
+        "points": 13,
+        "plusMinus": 8,
+        "penaltyMinutes": 4
+      }
+    },
+    {
+      "seasonId": "2023-24-j20",
       "team": {
         "id": "frolunda-j20",
         "name": "Frölunda HC J20",
@@ -106,38 +406,115 @@
         "tier": 4,
         "difficultyCoefficient": 0.25
       },
-      "gamesPlayed": 34,
-      "goals": 18,
-      "assists": 27,
-      "points": 45,
-      "plusMinus": 20,
-      "penaltyMinutes": 16
-    },
-    {
-      "seasonId": "2022-23-shl",
-      "team": {
-        "id": "frolunda",
-        "name": "Frölunda HC",
-        "shortName": "FHC",
-        "country": "Sweden"
-      },
-      "league": {
-        "id": "shl",
-        "name": "Swedish Hockey League",
-        "shortName": "SHL",
-        "country": "Sweden",
-        "tier": 1,
-        "difficultyCoefficient": 0.82
-      },
-      "gamesPlayed": 14,
-      "goals": 2,
+      "gamesPlayed": 9,
+      "goals": 3,
       "assists": 5,
-      "points": 7,
-      "plusMinus": -1,
-      "penaltyMinutes": 6
+      "points": 8,
+      "plusMinus": 4,
+      "penaltyMinutes": 2,
+      "playoffs": {
+        "gamesPlayed": 6,
+        "goals": 0,
+        "assists": 2,
+        "points": 2,
+        "plusMinus": 0,
+        "penaltyMinutes": 3
+      }
     },
     {
-      "seasonId": "2023-24",
+      "seasonId": "2023-24-whc17",
+      "team": {
+        "id": "sweden-u17",
+        "name": "Sweden U17",
+        "shortName": "SWE U17",
+        "country": "Sweden"
+      },
+      "league": {
+        "id": "whc-17",
+        "name": "World Hockey Challenge U17",
+        "shortName": "WHC-17",
+        "country": "International",
+        "tier": 4,
+        "difficultyCoefficient": 0.28
+      },
+      "gamesPlayed": 7,
+      "goals": 7,
+      "assists": 3,
+      "points": 10,
+      "plusMinus": 2,
+      "penaltyMinutes": 0
+    },
+    {
+      "seasonId": "2024-25-j18-region",
+      "team": {
+        "id": "frolunda-j18",
+        "name": "Frölunda HC J18",
+        "shortName": "FHC J18",
+        "country": "Sweden"
+      },
+      "league": {
+        "id": "j18-region",
+        "name": "J18 Region",
+        "shortName": "J18 Region",
+        "country": "Sweden",
+        "tier": 5,
+        "difficultyCoefficient": 0.12
+      },
+      "gamesPlayed": 3,
+      "goals": 1,
+      "assists": 7,
+      "points": 8,
+      "plusMinus": 2,
+      "penaltyMinutes": 0
+    },
+    {
+      "seasonId": "2024-25-j18-nat",
+      "team": {
+        "id": "frolunda-j18",
+        "name": "Frölunda HC J18",
+        "shortName": "FHC J18",
+        "country": "Sweden"
+      },
+      "league": {
+        "id": "j18-nationell",
+        "name": "J18 Nationell",
+        "shortName": "J18 Nat.",
+        "country": "Sweden",
+        "tier": 4,
+        "difficultyCoefficient": 0.18
+      },
+      "gamesPlayed": 1,
+      "goals": 1,
+      "assists": 5,
+      "points": 6,
+      "plusMinus": 0,
+      "penaltyMinutes": 3
+    },
+    {
+      "seasonId": "2024-25-j20",
+      "team": {
+        "id": "frolunda-j20",
+        "name": "Frölunda HC J20",
+        "shortName": "FHC J20",
+        "country": "Sweden"
+      },
+      "league": {
+        "id": "j20-nationell",
+        "name": "J20 Nationell",
+        "shortName": "J20 Nat.",
+        "country": "Sweden",
+        "tier": 4,
+        "difficultyCoefficient": 0.25
+      },
+      "gamesPlayed": 27,
+      "goals": 26,
+      "assists": 27,
+      "points": 53,
+      "plusMinus": 36,
+      "penaltyMinutes": 27
+    },
+    {
+      "seasonId": "2024-25-shl",
       "team": {
         "id": "frolunda",
         "name": "Frölunda HC",
@@ -152,23 +529,46 @@
         "tier": 1,
         "difficultyCoefficient": 0.82
       },
-      "gamesPlayed": 46,
-      "goals": 13,
-      "assists": 24,
-      "points": 37,
-      "plusMinus": 8,
-      "penaltyMinutes": 22,
+      "gamesPlayed": 25,
+      "goals": 1,
+      "assists": 2,
+      "points": 3,
+      "plusMinus": 4,
+      "penaltyMinutes": 14,
       "playoffs": {
-        "gamesPlayed": 9,
+        "gamesPlayed": 12,
         "goals": 3,
-        "assists": 5,
-        "points": 8,
-        "plusMinus": 4,
-        "penaltyMinutes": 6
+        "assists": 3,
+        "points": 6,
+        "plusMinus": 2,
+        "penaltyMinutes": 0
       }
     },
     {
-      "seasonId": "2024-25",
+      "seasonId": "2024-25-wjc18",
+      "team": {
+        "id": "sweden-u18",
+        "name": "Sweden U18",
+        "shortName": "SWE U18",
+        "country": "Sweden"
+      },
+      "league": {
+        "id": "wjc-18",
+        "name": "World U18 Championship",
+        "shortName": "WJC-18",
+        "country": "International",
+        "tier": 3,
+        "difficultyCoefficient": 0.35
+      },
+      "gamesPlayed": 7,
+      "goals": 8,
+      "assists": 5,
+      "points": 13,
+      "plusMinus": 4,
+      "penaltyMinutes": 0
+    },
+    {
+      "seasonId": "2025-26-shl",
       "team": {
         "id": "frolunda",
         "name": "Frölunda HC",
@@ -183,20 +583,43 @@
         "tier": 1,
         "difficultyCoefficient": 0.82
       },
-      "gamesPlayed": 52,
-      "goals": 19,
-      "assists": 31,
-      "points": 50,
-      "plusMinus": 15,
-      "penaltyMinutes": 28,
+      "gamesPlayed": 43,
+      "goals": 11,
+      "assists": 22,
+      "points": 33,
+      "plusMinus": 6,
+      "penaltyMinutes": 10,
       "playoffs": {
-        "gamesPlayed": 11,
-        "goals": 5,
-        "assists": 7,
-        "points": 12,
-        "plusMinus": 6,
-        "penaltyMinutes": 8
+        "gamesPlayed": 6,
+        "goals": 0,
+        "assists": 4,
+        "points": 4,
+        "plusMinus": 4,
+        "penaltyMinutes": 0
       }
+    },
+    {
+      "seasonId": "2025-26-wjc20",
+      "team": {
+        "id": "sweden-u20",
+        "name": "Sweden U20",
+        "shortName": "SWE U20",
+        "country": "Sweden"
+      },
+      "league": {
+        "id": "wjc-20",
+        "name": "World Junior Championship",
+        "shortName": "WJC-20",
+        "country": "International",
+        "tier": 3,
+        "difficultyCoefficient": 0.45
+      },
+      "gamesPlayed": 7,
+      "goals": 4,
+      "assists": 6,
+      "points": 10,
+      "plusMinus": 6,
+      "penaltyMinutes": 5
     }
   ]
 }

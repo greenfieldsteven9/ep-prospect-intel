@@ -182,5 +182,29 @@
     "country": "Sweden",
     "tier": 5,
     "difficultyCoefficient": 0.06
+  },
+  {
+    "id": "u16-region",
+    "name": "U16 Region",
+    "shortName": "U16 Region",
+    "country": "Sweden",
+    "tier": 5,
+    "difficultyCoefficient": 0.05
+  },
+  {
+    "id": "u16-div2",
+    "name": "U16 Div.2",
+    "shortName": "U16 Div.2",
+    "country": "Sweden",
+    "tier": 5,
+    "difficultyCoefficient": 0.03
+  },
+  {
+    "id": "j18-div2",
+    "name": "J18 Div.2",
+    "shortName": "J18 Div.2",
+    "country": "Sweden",
+    "tier": 5,
+    "difficultyCoefficient": 0.08
   }
 ]
